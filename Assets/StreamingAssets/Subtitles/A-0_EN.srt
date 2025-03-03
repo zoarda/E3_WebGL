@@ -1,0 +1,236 @@
+1
+00:00:14,347 --> 00:00:15,849
+Alex@What kind of photo frame is this?
+
+2
+00:00:16,683 --> 00:00:18,852
+Alex@Where did this ugly guy come from? He's so ugly.
+
+3
+00:00:31,164 --> 00:00:32,165
+Megan@What a weird thing.
+
+4
+00:00:32,165 --> 00:00:34,000
+Emily@Where should we put this thing?
+
+5
+00:00:34,567 --> 00:00:35,435
+Victoria@Emily
+
+6
+00:00:35,435 --> 00:00:36,469
+Victoria@Let's put it here.
+
+7
+00:00:37,504 --> 00:00:38,738
+Emily@What is this thing?
+
+8
+00:00:40,407 --> 00:00:41,207
+Emily@Oh no
+
+9
+00:00:41,975 --> 00:00:43,243
+Emily@Did the previous tenant not clean out their stuff?
+
+11
+00:00:45,445 --> 00:00:46,146
+Megan@Hey, Emily
+
+12
+00:00:46,146 --> 00:00:47,781
+Megan@Did you hurt your hand just now?
+
+13
+00:00:47,781 --> 00:00:48,648
+Emily@It's fine
+
+14
+00:00:48,648 --> 00:00:49,382
+Emily@Grace
+
+15
+00:00:50,183 --> 00:00:50,917
+Emily@Grace
+
+16
+00:00:51,251 --> 00:00:53,019
+Emily@What should I do with the broken glass?
+
+17
+00:00:53,453 --> 00:00:55,155
+Emily@It just fell
+
+18
+00:00:55,155 --> 00:00:56,056
+Grace@Oh! Don't worry
+
+19
+00:00:56,056 --> 00:00:57,724
+Grace@I'll go get some newspaper now
+
+20
+00:00:57,724 --> 00:00:58,358
+Grace@Leave it to me
+
+21
+00:00:58,358 --> 00:00:58,858
+Emily@Okay
+
+22
+00:00:59,359 --> 00:01:00,493
+Samantha@Are you sure you're not hurt?
+
+23
+00:01:00,493 --> 00:01:01,594
+Megan@I want to order some drinks
+
+24
+00:01:01,594 --> 00:01:02,762
+Megan@I'm so thirsty
+
+25
+00:01:03,329 --> 00:01:05,398
+Megan@Does anyone else want to order drinks?
+
+26
+00:01:05,398 --> 00:01:07,167
+Victoria@I'm so thirsty
+
+27
+00:01:07,167 --> 00:01:08,968
+Samantha@I want bubble milk tea without the bubbles
+
+28
+00:01:08,968 --> 00:01:09,569
+Samantha@No sugar
+
+29
+00:01:09,569 --> 00:01:10,737
+Alex@Wait a second
+
+30
+00:01:10,737 --> 00:01:11,805
+Alex@What's that?
+
+31
+00:01:11,805 --> 00:01:12,806
+Alex@This place?
+
+32
+00:01:13,173 --> 00:01:13,640
+Victoria@Great!
+
+33
+00:01:13,640 --> 00:01:14,374
+Victoria@This one's not bad
+
+34
+00:01:14,374 --> 00:01:15,341
+@This place? - This place is pretty good
+
+35
+00:01:15,341 --> 00:01:16,142
+Samantha@This one
+
+36
+00:01:16,676 --> 00:01:17,343
+Megan@Honey green tea
+
+37
+00:01:17,577 --> 00:01:18,411
+Alex@Honey green tea
+
+38
+00:01:18,411 --> 00:01:19,813
+Megan@You know my usual
+
+39
+00:01:20,447 --> 00:01:22,415
+Alex@Black tea latte, less sugar, no ice
+
+40
+00:01:23,083 --> 00:01:24,317
+Samantha@Alright, then...
+
+41
+00:01:24,317 --> 00:01:25,518
+Samantha@Orange green tea
+
+42
+00:01:25,518 --> 00:01:27,153
+Samantha@Slightly sweet, less ice
+
+43
+00:01:27,153 --> 00:01:27,821
+Alex@What do you want?
+
+44
+00:01:27,821 --> 00:01:29,022
+Victoria@I also want a black tea latte
+
+45
+00:01:29,022 --> 00:01:30,023
+Victoria@No sugar, no ice
+
+46
+00:01:30,023 --> 00:01:30,490
+Alex@Okay
+
+47
+00:01:31,024 --> 00:01:31,491
+Alex@Alright
+
+48
+00:01:33,359 --> 00:01:34,828
+Alex@Hey, what did you say you wanted?
+
+49
+00:01:35,061 --> 00:01:35,762
+Emily@Honey green tea
+
+50
+00:01:35,762 --> 00:01:36,563
+Alex@Oh, sorry
+
+51
+00:01:36,563 --> 00:01:38,431
+@No sugar - She doesn't know what she wants
+
+52
+00:01:39,265 --> 00:01:41,468
+Samantha@Sugar-free what kind of ice?
+
+53
+00:01:41,468 --> 00:01:43,169
+Megan@Let's order her some black tea.
+
+54
+00:01:43,169 --> 00:01:44,604
+Alex@Yeah, let's get her black tea.
+
+55
+00:01:44,604 --> 00:01:46,239
+@Right. - Probably with less ice too.
+
+56
+00:01:47,140 --> 00:01:48,041
+Alex@Less sugar, less ice.
+
+57
+00:01:48,041 --> 00:01:48,975
+Samantha@I'm back.
+
+58
+00:01:48,975 --> 00:01:50,610
+Samantha@What do you want to drink?
+
+59
+00:01:50,610 --> 00:01:51,478
+Megan@I'm ordering drinks.
+
+60
+00:01:51,478 --> 00:01:52,412
+Samantha@So, what do you want to drink?
+

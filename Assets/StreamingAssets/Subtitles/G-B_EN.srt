@@ -1,0 +1,56 @@
+1
+00:00:03,003 --> 00:00:04,237
+Megan@Hey, Alex
+
+2
+00:00:04,237 --> 00:00:05,638
+Megan@Let me tell you something
+
+3
+00:00:06,539 --> 00:00:07,374
+Megan@Recently
+
+4
+00:00:07,374 --> 00:00:08,908
+Megan@It's like
+
+5
+00:00:08,908 --> 00:00:09,909
+Megan@When I'm at work
+
+6
+00:00:09,909 --> 00:00:11,678
+Megan@There's this guy who's been pursuing me
+
+7
+00:00:12,579 --> 00:00:13,246
+Alex@A guy?
+
+8
+00:00:13,246 --> 00:00:14,247
+Alex@What's he like?
+
+9
+00:00:14,514 --> 00:00:16,883
+Megan@He's from the perfume counter and he keeps buying perfume from me
+
+10
+00:00:16,883 --> 00:00:18,718
+Megan@And he keeps trying to be nice to me
+
+11
+00:00:18,718 --> 00:00:21,187
+Megan@Then he started to become very proactive
+
+12
+00:00:22,188 --> 00:00:22,989
+Alex@Very proactive?
+
+13
+00:00:22,989 --> 00:00:23,857
+Alex@You don't like it?
+
+14
+00:00:25,725 --> 00:00:27,427
+Megan@Well, he seems like a nice person
+

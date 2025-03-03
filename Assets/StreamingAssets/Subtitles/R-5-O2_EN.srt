@@ -1,0 +1,40 @@
+1
+00:00:00,900 --> 00:00:01,301
+Ethan@Come on
+
+2
+00:00:01,301 --> 00:00:01,935
+Ethan@Hurry up
+
+3
+00:00:03,870 --> 00:00:04,371
+Emily@Ethan
+
+4
+00:00:04,604 --> 00:00:05,005
+Emily@Like this
+
+5
+00:00:11,244 --> 00:00:12,145
+Emily@This position
+
+6
+00:00:14,647 --> 00:00:15,548
+Emily@It's so embarrassing
+
+7
+00:00:48,415 --> 00:00:48,915
+Emily@Ethan
+
+8
+00:00:54,220 --> 00:00:55,822
+Emily@This is too embarrassing
+
+9
+00:00:59,025 --> 00:00:59,793
+Ethan@Do you like it?
+
+10
+00:01:02,429 --> 00:01:03,163
+Emily@I like it
+

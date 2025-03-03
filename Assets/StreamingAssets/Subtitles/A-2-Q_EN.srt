@@ -1,0 +1,8 @@
+1
+00:00:04,204 --> 00:00:05,238
+Alex@Slow down, slow down, slow down!
+
+2
+00:00:05,238 --> 00:00:08,308
+Alex@See? I told you you've had too much. And you still want to drink?
+

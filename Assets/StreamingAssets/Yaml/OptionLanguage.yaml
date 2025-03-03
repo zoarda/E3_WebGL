@@ -1,0 +1,399 @@
+Packs:
+- Id: PackId1
+  Label:
+    CH: 1號房
+    EN: Room1
+    JP: 部屋1
+- Id: PackId2
+  Label:
+    CH: 2號房
+    EN: Room2
+    JP: 部屋2
+- Id: PackId3
+  Label:
+    CH: 3號房
+    EN: Room3
+    JP: 部屋3
+- Id: PackId4
+  Label:
+    CH: 4號房
+    EN: Room4
+    JP: 部屋4
+- Id: PackId5
+  Label:
+    CH: 5號房
+    EN: Room5
+    JP: 部屋5
+- Id: PackId6
+  Label:
+    CH: 浴室
+    EN: Bathroom
+    JP: バスルーム
+- Id: PackId7
+  Label:
+    CH: 廚房
+    EN: Kitchen
+    JP: キッチン
+- Id: PackId8
+  Label:
+    CH: 陽台
+    EN: Balcony
+    JP: バルコニー
+- Id: PackId9
+  Label:
+    CH: 客廳
+    EN: Living Room
+    JP: リビング
+- Id: PackId10
+  Label:
+    CH: 逗弄
+    EN: Tease
+    JP: いじる
+- Id: PackId11
+  Label:
+    CH: 附身男子
+    EN: Possession
+    JP: 取り憑く
+- Id: PackId12
+  Label:
+    CH: 離開
+    EN: Leave
+    JP: 離れる
+- Id: PackId13
+  Label:
+    CH: 抽屜
+    EN: Drawer
+    JP: 引き出し
+- Id: PackId14
+  Label:
+    CH: 書架
+    EN: Bookshelf
+    JP: 本棚
+- Id: PackId15
+  Label:
+    CH: 紙團
+    EN: Paper Ball
+    JP: 紙くず
+- Id: PackId16
+  Label:
+    CH: 返回大廳
+    EN: Return to lobby
+    JP: ロビーに戻る
+- Id: PackId17
+  Label:
+    CH: 系統設置
+    EN: System
+    JP: システム
+- Id: PackId18
+  Label:
+    CH: 語系 
+    EN: Language
+    JP: 言語設定
+- Id: PackId19
+  Label:
+    CH: 音量
+    EN: Volume
+    JP: 音量
+- Id: PackId20
+  Label:
+    CH: 取消
+    EN: Cancel
+    JP: キャンセル
+- Id: PackId21
+  Label:
+    CH: 保存
+    EN: Save
+    JP: 保存
+- Id: PackId22
+  Label:
+    CH: 觀賞
+    EN: 觀賞
+    JP: 觀賞
+- Id: PackId23
+  Label:
+    CH: 口交
+    EN: 口交
+    JP: 口交
+- Id: PackId24
+  Label:
+    CH: 指交
+    EN: 指交
+    JP: 指交
+- Id: PackId25
+  Label:
+    CH: 舔鮑
+    EN: 舔鮑
+    JP: 舔鮑
+- Id: PackId26
+  Label:
+    CH: 足交
+    EN: 足交
+    JP: 足交
+- Id: PackId27
+  Label:
+    CH: 插入
+    EN: 插入
+    JP: 插入
+- Id: PackId28
+  Label:
+    CH: 反女上
+    EN: 反女上
+    JP: 反女上
+- Id: PackId29
+  Label:
+    CH: 傳教
+    EN: 傳教
+    JP: 傳教
+- Id: PackId30
+  Label:
+    CH: 是否要離開遊戲?
+    EN: Do you want to exit the game?
+    JP: ゲームを終了しますか?
+- Id: PackId31
+  Label:
+    CH: 側入
+    EN: 側入
+    JP: 側入
+- Id: PackId32
+  Label:
+    CH: 後入
+    EN: 後入
+    JP: 後入
+- Id: PackId33
+  Label:
+    CH: 射精
+    EN: 射精
+    JP: 射精
+- Id: PackId34
+  Label:
+    CH: 點切換按鈕
+    EN: 點切換按鈕
+    JP: 點切換按鈕
+- Id: PackId35
+  Label:
+    CH: 附身所有人
+    EN: Possess Everyone
+    JP: 取り憑く
+- Id: PackId36
+  Label:
+    CH: 靜觀其變
+    EN: Observe
+    JP: 静観する
+- Id: PackId37
+  Label:
+    CH: 妍菲
+    EN: Samantha
+    JP: 芽瑠
+- Id: PackId38
+  Label:
+    CH: 若涵
+    EN: Emily
+    JP: 咲若
+- Id: PackId39
+  Label:
+    CH: 嘉穎
+    EN: Victoria
+    JP: 嘉芳
+- Id: PackId40
+  Label:
+    CH: 辰羽和詠晴
+    EN: Alex & Megan
+    JP: 美羽和晴南
+- Id: PackId41
+  Label:
+    CH: 巧薇
+    EN: Grace
+    JP: 千紗
+- Id: PackId42
+  Label: 
+    CH: 點擊按鈕進行探索
+    EN: Click the button to explore
+    JP: ボタンをクリックして探索してください
+- Id: PackId86
+  Label:
+    CH: 章節選擇
+    EN: Chapter
+    JP: チャプター
+- Id: PackId87
+  Label:
+    CH: 選擇語系
+    EN: Select Language
+    JP: 言語を選択
+- Id: PackId88
+  Label:
+     CH: 日文
+     EN: JP
+     JP: 日文語
+- Id: PackId89
+  Label:
+     CH: 英文
+     EN: EN
+     JP: 英語
+- Id: PackId90
+  Label:
+     CH: 中文
+     EN: CN
+     JP: 中國語
+- Id: PackId97
+  Label:
+     CH: 關閉遊戲
+     EN: Quit
+     JP: 終了します
+- Id: PackId98
+  Label:
+     CH: 再夢一次
+     EN: Dream once more
+     JP: もう一度夢を見る
+- Id: PackId99
+  Label:
+     CH: 夢醒了離開
+     EN: Wake up and leave
+     JP: 目覚めてその場を離れる
+- Id: PackId100
+  Label:
+     CH: title_B_01
+     EN: title_B_01_E
+     JP: title_B_01
+- Id: PackId101
+  Label:
+     CH: word_A_01
+     EN: word_A_01_E
+     JP: word_A_01_J
+- Id: PackId102
+  Label:
+     CH: word_A_02
+     EN: word_A_02_E
+     JP: word_A_02_J
+- Id: PackId103
+  Label:
+     CH: word_B_01
+     EN: word_B_01_E
+     JP: word_B_01_J
+- Id: PackId104
+  Label:
+     CH: word_B_02
+     EN: word_B_02_E
+     JP: word_B_02_J
+- Id: PackId105
+  Label:
+     CH: word_C_01
+     EN: word_C_01_E
+     JP: word_C_01_J
+- Id: PackId106
+  Label:
+     CH: word_C_02
+     EN: word_C_02_E
+     JP: word_C_02_J
+- Id: PackId107
+  Label:
+     CH: word_D_01
+     EN: word_D_01_E
+     JP: word_D_01_J
+- Id: PackId108
+  Label:
+     CH: word_D_02
+     EN: word_D_02_E
+     JP: word_D_02_J
+- Id: PackId111
+  Label:
+     CH: 確認
+     EN: Confirm
+     JP: 確認する
+- Id: PackId112
+  Label:
+     CH: 取消
+     EN: Cancel
+     JP: キャンセル
+- Id: PackId113
+  Label:
+     CH: 畫廊
+     EN: Gallery
+     JP: ギャラリー
+- Id: PackId114
+  Label:
+     CH: 開始遊戲
+     EN: Start
+     JP: スタート
+- Id: PackId115
+  Label:
+     CH: 離開遊戲
+     EN: Quit
+     JP: 終了する
+
+- Id: PackId201
+  Label:
+     CH: 怎麼回事？幽靈也會累的嗎？
+     EN: What's going on? Do ghosts get tired too?
+     JP: どういうことだ？幽霊も疲れるのか？
+
+- Id: PackId202
+  Label:
+     CH: 這應該跟遊戲一樣吧！行動限制的條件我得搞清楚才行！
+     EN: This should be just like a game! I need to figure out the conditions that limit my actions!
+     JP: ゲームと同じはずだ！行動の制限条件をちゃんと把握しないと！
+
+- Id: PackId203
+  Label:
+     CH: 大概知道規則了，這次也要繼續色色！
+     EN: I think I’ve got the rules down. Time to keep going… and keep things spicy!
+     JP: 大体ルールは分かった。今回もエッチなことを続けるぞ！
+
+- Id: PackId204
+  Label:
+     CH: 繼續！我可不想錯過什麼好康的。
+     EN: Keep going! I don’t wanna miss out on any good stuff.
+     JP: 続けるぞ！せっかくのチャンス、見逃したくないからな。
+
+- Id: PackId205
+  Label:
+     CH: 這狀態不知道會持續到什麼時候？好像離不開這個房子。
+     EN: How long will this state last? Looks like I can’t leave this house.
+     JP: この状態、いつまで続くんだ？どうやらこの家から出られないみたいだな。
+
+- Id: PackId206
+  Label:
+     CH: 如果這段時光是一個罐頭的話，我希望這一個罐頭不會過期；如果一定要加一個日子的話，我希望是一萬年。
+     EN: If this moment were a canned good, I hope it never expires. And if I had to put a date on it... I’d wish for ten thousand years.
+     JP: もしこの時間が缶詰だったら、絶対に賞味期限が切れないでほしい。どうしても期限をつけなきゃいけないなら... 一万年がいいな。
+
+- Id: PackId301
+  Label:
+     CH: 逗弄
+     EN: Tease
+     JP: からかう
+
+- Id: PackId302
+  Label:
+     CH: 附身
+     EN: Possess
+     JP: 憑依する
+
+- Id: PackId303
+  Label:
+     CH: 離開 
+     EN: Leave
+     JP: 出る
+
+- Id: PackId304
+  Label:
+     CH: 抽屜
+     EN: Drawer
+     JP: 引き出し
+
+- Id: PackId305
+  Label:
+     CH: 書架
+     EN: Bookshelf
+     JP: 本棚
+
+- Id: PackId306
+  Label:
+     CH: 紙團
+     EN: Crumpled Paper 
+     JP: 紙くず
+
+- Id: PackId307
+  Label:
+     CH: 觀賞
+     EN: Watch
+     JP: 観る

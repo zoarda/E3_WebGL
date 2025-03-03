@@ -1,0 +1,20 @@
+1
+00:00:02,635 --> 00:00:03,937
+Megan@Rinse yourself
+
+2
+00:00:04,704 --> 00:00:05,772
+Alex@So stingy
+
+3
+00:00:05,772 --> 00:00:07,273
+Alex@It's just a quick rinse
+
+4
+00:00:15,115 --> 00:00:16,983
+Alex@Be careful not to catch a cold
+
+5
+00:00:16,983 --> 00:00:18,318
+Alex@Here's the towel
+

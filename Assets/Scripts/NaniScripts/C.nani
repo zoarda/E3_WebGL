@@ -1,0 +1,66 @@
+# C-5-1
+@streamingPlay "C-5-1"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto .DayCheck
+
+# C-5-Q11
+@streamingPlay "C-5-Q11"
+@speedButtonDisable
+@spawn LovePlayPage
+@spawnLovePlayPage poseName:sex_I_02,sex_H_02,sex_Q_02,sex_K_02 label:C-5-O4_LOVE,C-TEST,C-TEST,C-TEST cumLabel:C-5-S4-Love hidenCumLabel:null type:demoForPlay
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@stop
+
+# C-5-O4
+@streamingPlay "C-5-O4"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto .C-5-Q4
+
+# C-5-Q4
+@streamingPlay "C-5-Q4"
+@speedButtonDisable
+@spawn LovePlayPage
+@spawnLovePlayPage poseName:sex_I_02,sex_H_02,sex_Q_02,sex_K_02 label:C-5-O4_LOVE,C-TEST,C-TEST,C-TEST cumLabel:C-5-S4 hidenCumLabel:null type:demoForPlay
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@stop
+
+# C-5-S4-Love
+@speedButtonDisable
+@spawn LovePlayPage
+@spawnLovePlayPage poseName:sex_G_02,sex_A_02,sex_C_02,sex_F_02 label:C-TEST,C-TEST,C-TEST,C-5-S4 cumLabel:null hidenCumLabel:null type:demoForPlay
+@EndMovie
+@goto .C-5-Q4
+
+# C-5-S4
+@streamingPlay "C-5-S4"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto .C-5-Q9
+
+# C-5-Q9
+@streamingPlay "C-5-Q9"
+@speedButtonDisable
+@spawn LovePlayPage
+@spawnLovePlayPage poseName:sex_G_02,sex_A_02,sex_C_02,sex_F_02 label:C-TEST,C-TEST,C-TEST,C-5-S4 cumLabel:null hidenCumLabel:null type:demoForPlay
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@stop

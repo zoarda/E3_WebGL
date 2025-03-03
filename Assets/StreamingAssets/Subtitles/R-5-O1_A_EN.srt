@@ -1,0 +1,12 @@
+1
+00:02:33,620 --> 00:02:34,487
+Ethan@Lift your legs up.
+
+2
+00:02:37,090 --> 00:02:37,590
+Ethan@Turn towards me.
+
+3
+00:02:37,891 --> 00:02:38,825
+Ethan@Yeah, I want to see more clearly.
+

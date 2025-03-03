@@ -1,0 +1,8 @@
+1
+00:00:02,936 --> 00:00:03,536
+Ethan@Are you okay?
+
+2
+00:00:08,274 --> 00:00:09,676
+Emily@I'm feeling a bit shy.
+

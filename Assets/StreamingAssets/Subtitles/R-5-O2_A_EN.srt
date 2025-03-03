@@ -1,0 +1,12 @@
+1
+00:00:23,356 --> 00:00:24,057
+Emily@I like
+
+2
+00:01:48,341 --> 00:01:48,875
+Emily@Ethan
+
+3
+00:01:55,448 --> 00:01:57,517
+Emily@This gesture is so embarrassing
+

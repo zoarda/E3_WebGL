@@ -1,0 +1,12 @@
+1
+00:00:01,001 --> 00:00:01,401
+Emily@Ethan...
+
+2
+00:00:03,903 --> 00:00:04,838
+Emily@I really can't take it anymore.
+
+3
+00:00:05,438 --> 00:00:06,639
+Emily@I can't bear it.
+

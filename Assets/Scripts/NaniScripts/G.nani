@@ -1,0 +1,38 @@
+# G-B
+@streamingPlay "G-B"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto .G-B-Q
+
+# G-B-Q
+@streamingPlay "G-B-Q"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@speedButtonDisable
+@choiceDLC "PackId307" button:AvButton goto:.G-B-1
+@choiceDLC "PackId303" button:AvButton goto:.G-B-2
+@reBuildChoice
+@stop
+
+# G-B-1
+@streamingPlay "G-B-1"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto A.ActionPonitSetting
+
+# G-B-2
+@streamingPlay "G-B-2"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto A.ActionPonitSetting

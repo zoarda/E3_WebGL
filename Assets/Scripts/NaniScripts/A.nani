@@ -1,0 +1,85 @@
+# A-0
+@streamingPlay "A-0"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto .DayCheck
+
+# A-0-1
+@streamingPlay "A-0-1"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:35 isLooping:true
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@speedButtonDisable
+@choiceDLC "PackId1" button:AvButton handler:AvDisableButtonList goto:Y.Y-1
+@choiceDLC "PackId2" button:AvButton handler:AvDisableButtonList goto:R.R-0
+@choiceDLC "PackId3" button:AvButton handler:AvDisableButtonList goto:J.J-2
+@choiceDLC "PackId4" button:AvDisableChoiceButton handler:AvDisableButtonList
+@choiceDLC "PackId5" button:AvDisableChoiceButton handler:AvDisableButtonList
+@choiceDLC "PackId6" button:AvButton handler:AvDisableButtonList goto:G.G-B
+@choiceDLC "PackId7" button:AvDisableChoiceButton handler:AvDisableButtonList
+@choiceDLC "PackId8" button:AvButton handler:AvDisableButtonList goto:J.J-E
+@choiceDLC "PackId9" button:AvDisableChoiceButton handler:AvDisableButtonList
+@reBuildChoice
+@stop
+
+# A-1
+; @streamingPlay "A-1"
+; @speedButtonEnable
+; @videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+; @forcedChoice choiceTime:3
+; @waitMovie choiceTime:3
+; @EndMovie
+@goto C.C-5-1
+# A-2
+@streamingPlay "A-2"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto .A-3
+
+# A-1-Q
+@streamingPlay "A-1-Q"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto .A-1-Q
+
+# A-2-Q
+@streamingPlay "A-0-1"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@speedButtonDisable
+@choiceDLC "PackId4" button:AvDisableChoiceButton handler:AvDisableButtonList
+@choiceDLC "PackId5" button:AvDisableChoiceButton handler:AvDisableButtonList
+@choiceDLC "PackId4" button:AvDisableChoiceButton handler:AvDisableButtonList
+@choiceDLC "PackId5" button:AvDisableChoiceButton handler:AvDisableButtonList
+@choiceDLC "PackId1" button:AvButton handler:AvDisableButtonList goto:Y.Y-1
+
+@reBuildChoice
+@stop
+
+# ActionPonitSetting
+@hideChars
+@rmMovie
+@actionPonitProperty mode:Set actionPonit:1
+@actionPonitProperty mode:Get actionPonit:0  script:A actionPonitlabel:A-0-1 unActionPonitlabel:DaySetting
+@stop
+
+# DaySetting
+@dayProperty mode:Set day:1
+@goto .DayCheck
+@stop
+
+# DayCheck
+@dayProperty mode:Get day:2 script:A daylabel:A-1 unDaylabel:A-0-1
+@stop

@@ -1,0 +1,148 @@
+1
+00:00:07,107 --> 00:00:07,874
+Ethan@Your room is very girly.
+
+2
+00:00:09,843 --> 00:00:10,610
+Emily@What are you talking about?
+
+3
+00:00:12,812 --> 00:00:13,546
+Ethan@Well... it smells nice.
+
+4
+00:00:18,251 --> 00:00:19,219
+Ethan@You're reading books too?
+
+5
+00:00:21,187 --> 00:00:21,955
+Emily@Yes, I am.
+
+6
+00:00:22,989 --> 00:00:24,424
+Ethan@I really like the author of this book.
+
+7
+00:00:25,859 --> 00:00:26,893
+Emily@I know.
+
+8
+00:00:27,494 --> 00:00:28,061
+Ethan@You know?
+
+9
+00:00:32,565 --> 00:00:33,733
+Ethan@What other books do you read?
+
+10
+00:00:35,468 --> 00:00:35,935
+Ethan@What's wrong?
+
+11
+00:00:37,937 --> 00:00:38,705
+Emily@Nothing.
+
+12
+00:00:41,674 --> 00:00:42,942
+Ethan@You keep a handwritten diary?
+
+13
+00:00:43,510 --> 00:00:44,110
+Ethan@Aren't many people forgetting how to write characters these days?
+
+14
+00:00:46,212 --> 00:00:46,613
+Emily@Yeah, that's true.
+
+15
+00:00:46,613 --> 00:00:47,247
+Ethan@Let me take a look.
+
+16
+00:00:48,648 --> 00:00:49,082
+Emily@No, not yet!
+
+17
+00:00:50,316 --> 00:00:52,218
+Emily@It's just my random scribblings.
+
+18
+00:00:53,853 --> 00:00:54,554
+Ethan@Is that so?
+
+19
+00:00:54,954 --> 00:00:56,089
+Ethan@How mysterious.
+
+20
+00:00:56,723 --> 00:00:57,924
+Emily@There's nothing special in it.
+
+21
+00:00:59,025 --> 00:00:59,793
+Ethan@Alright then.
+
+22
+00:01:03,663 --> 00:01:04,631
+Ethan@So, what are you going to do later?
+
+23
+00:01:07,300 --> 00:01:08,201
+Emily@Later... I don't have any plans.
+
+24
+00:01:11,871 --> 00:01:12,539
+Ethan@What's this?
+
+25
+00:01:21,181 --> 00:01:22,048
+@Ethan, do you know? You're the last person I think about before I sleep and the first thing I think of when I wake up. Thank you for always being there for me when I'm down. I've started to get used to having you around, so I want to ask you something!
+
+26
+00:01:55,815 --> 00:01:56,683
+Ethan@Actually, I also...
+
+27
+00:02:00,120 --> 00:02:00,553
+Ethan@No, wait.
+
+28
+00:02:01,221 --> 00:02:02,422
+Ethan@I, I, I wasn't sure before.
+
+29
+00:02:05,291 --> 00:02:05,792
+Ethan@Do, do you like me too?
+
+30
+00:02:10,330 --> 00:02:11,564
+Ethan@Anyway, thank you.
+
+31
+00:02:11,931 --> 00:02:12,932
+Ethan@Thank you for liking me too.
+
+32
+00:02:19,839 --> 00:02:20,740
+Ethan@I think it's about time.
+
+33
+00:02:22,609 --> 00:02:22,942
+Ethan@I, I should go now.
+
+34
+00:02:25,278 --> 00:02:26,579
+Ethan@Let's meet again next time.
+
+35
+00:02:27,480 --> 00:02:29,482
+Emily@Wait a moment.
+
+36
+00:02:34,087 --> 00:02:36,389
+Emily@Can you stay with me a little longer?
+
+37
+00:03:41,221 --> 00:03:41,988
+Emily@Is that okay?
+

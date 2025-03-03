@@ -1,0 +1,48 @@
+# Y-1
+@streamingPlay "Y-1"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto .Y-1-Q
+
+# Y-1-Q
+@streamingPlay "Y-1-Q"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@speedButtonDisable
+@choiceDLC "PackId301" button:AvButton goto:.Y-1-1
+@choiceDLC "PackId302" button:AvButton goto:.Y-1-2
+@choiceDLC "PackId303" button:AvButton goto:.Y-1-3
+@reBuildChoice
+@stop
+
+# Y-1-1
+@streamingPlay "Y-1-1"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto A.ActionPonitSetting
+
+# Y-1-2
+@streamingPlay "Y-1-2"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto A.ActionPonitSetting
+
+# Y-1-3
+@streamingPlay "Y-1-3"
+@speedButtonEnable
+@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@forcedChoice choiceTime:3
+@waitMovie choiceTime:3
+@EndMovie
+@goto A.ActionPonitSetting
