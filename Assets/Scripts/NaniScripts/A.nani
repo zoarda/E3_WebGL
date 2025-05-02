@@ -10,7 +10,7 @@
 # A-0-1
 @streamingPlay "A-0-1"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:35 isLooping:true
+@videoControll StartLoopTime:0 EndLoopTime:33 isLooping:true
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @speedButtonDisable
@@ -24,6 +24,7 @@
 @choiceDLC "PackId8" button:AvButton handler:AvDisableButtonList goto:J.J-E
 @choiceDLC "PackId9" button:AvDisableChoiceButton handler:AvDisableButtonList
 @reBuildChoice
+@EndMovie
 @stop
 
 # A-1
@@ -33,7 +34,7 @@
 ; @forcedChoice choiceTime:3
 ; @waitMovie choiceTime:3
 ; @EndMovie
-@goto C.C-5-1
+@goto .EndGameA
 # A-2
 @streamingPlay "A-2"
 @speedButtonEnable
@@ -81,5 +82,12 @@
 @stop
 
 # DayCheck
-@dayProperty mode:Get day:2 script:A daylabel:A-1 unDaylabel:A-0-1
+@dayProperty mode:Get day:1 script:A daylabel:A-1 unDaylabel:A-0-1
+@stop
+
+# EndGameA
+@despawn LovePlayPage
+@spawn GameClearPage
+@gameClearBack confirmScript:S confirmLabel:null confirmText:PackId97  cancelScript:StartGame cancelLabel:null cancelText:PackId98  saying:PackId608 name:PackId102 cancel:PackId512 confirm:PackId511 imageTitle:PackId607
+@speedButtonDisable
 @stop

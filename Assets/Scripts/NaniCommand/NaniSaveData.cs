@@ -10,10 +10,17 @@ public class NaniSaveData : Command
     {
         await SaveDataAsync(ScriptName, asyncToken);
     }
-    private static async UniTask SaveDataAsync(string name , AsyncToken asyncToken)
+    private static async UniTask SaveDataAsync(string name, AsyncToken asyncToken)
     {
         StartNani startNani = StartNani.Instance;
-        // await startNani.SaveYaml(name);
+        if (startNani.isLoggedIn)
+        {
+            await startNani.SaveYaml(name);
+        }
+        else
+        {
+            Debug.Log("nologinMode");
+        }
         // await startNani.SelectOptionSwtich();
         await UniTask.CompletedTask;
     }

@@ -10,7 +10,7 @@
 # Y-1-Q
 @streamingPlay "Y-1-Q"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:true
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @speedButtonDisable
@@ -23,7 +23,7 @@
 # Y-1-1
 @streamingPlay "Y-1-1"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie
@@ -32,7 +32,7 @@
 # Y-1-2
 @streamingPlay "Y-1-2"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie
@@ -41,7 +41,7 @@
 # Y-1-3
 @streamingPlay "Y-1-3"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie

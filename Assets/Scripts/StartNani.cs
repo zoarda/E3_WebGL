@@ -11,14 +11,14 @@ public class StartNani : MonoBehaviour
 {
     [Header("Scripts")]
     public Button buttonController;
-    public GameObject StartGamePage, GalleryPage;
+    public GameObject StartGamePage, GalleryPage, OpenPageCheck;
     public List<float> friednshipList;
     [SerializeField] private SubtitlesManager subtitlesManager;
     [SerializeField] private LanguageManager LanguageManager;
     [SerializeField]
     private Button Btn_SpeedViewBack, Btn_ChoiceViewBack, Btn_Option,
     Btn_EndGame, Btn_Artist, Btn_OK, Btn_No, Btn_InGameOK, Btn_InGameNo, Btn_Language, Btn_OptionReturn, Btn_LanguageReturn, Btn_ArtistReturn, Btn_Error,
-     Btn_SelectOption, Btn_C1_VB, Btn_C2_VB, Btn_C3_VB, Btn_C4_VB, Btn_C5_VB, Btn_Return, Btn_StartSelect, Btn_StartGame, Btn_EndGamestart, Btn_GameSetting;
+     Btn_SelectOption, Btn_C1_VB, Btn_C2_VB, Btn_C3_VB, Btn_C4_VB, Btn_C5_VB, Btn_Return, Btn_StartSelect, Btn_StartGame, Btn_EndGamestart, Btn_GameSetting, Btn_OpenPageCheck;
     [SerializeField] private Toggle Btn_PlayPause;
     [SerializeField] private Image BG;
     public GameObject OpenPage, PreLanguageToggle, SelectOption, BlackBg, CheckPage, InGameCheckPage, OptionPage, GameSettingPage, LanguageToggle;
@@ -36,6 +36,8 @@ public class StartNani : MonoBehaviour
     [SerializeField] private List<Toggle> toggles;
 
     WebGLStreamController webGLStreamController;
+
+    public bool isLoggedIn = false; // 預設為未登入
     public static StartNani Instance { get; private set; }
     [SerializeField] private List<string> Language = new();
     // 定義與 JavaScript 函數的交互接口
@@ -90,16 +92,32 @@ public class StartNani : MonoBehaviour
     //獲取天數
     public async void InitDay()
     {
-        ServerManager.SaveData saveData = await ServerManager.Instance.Load();
-        saveData.day = 1;
-        await ServerManager.Instance.Save(saveData);
+        if (isLoggedIn)
+        {
+            ServerManager.SaveData saveData = await ServerManager.Instance.Load();
+            saveData.day = 1;
+            await ServerManager.Instance.Save(saveData);
+            Debug.Log($"initday");
+        }
+        else
+        {
+            Debug.Log("noLoginMode");
+        }
     }
+
     //初始化行動點
     public async void InitActionPotin()
     {
-        ServerManager.SaveData saveData = await ServerManager.Instance.Load();
-        saveData.actionPoint = 5;
-        await ServerManager.Instance.Save(saveData);
+        if (isLoggedIn)
+        {
+            ServerManager.SaveData saveData = await ServerManager.Instance.Load();
+            saveData.actionPoint = 5;
+            await ServerManager.Instance.Save(saveData);
+        }
+        else
+        {
+            Debug.Log("noLoginMode");
+        }
     }
     public async UniTask StartPlayVideo()
     {
@@ -207,6 +225,11 @@ public class StartNani : MonoBehaviour
             {
                 text.enabled = !text.enabled;
             }
+        });
+        Btn_OpenPageCheck.onClick.AddListener(() =>
+        {
+            OpenPage.SetActive(true);
+            OpenPageCheck.SetActive(false);
         });
 
         //動態生成語言選擇按鈕
@@ -630,47 +653,79 @@ public class StartNani : MonoBehaviour
     //增加行動點
     public async void SetActionPoint(float actionPoint)
     {
-        ServerManager.SaveData saveData = await ServerManager.Instance.Load();
-        saveData.actionPoint = saveData.actionPoint - actionPoint;
-        Debug.Log($"Shrimp SetActionPoint{saveData.actionPoint}");
-        await ServerManager.Instance.Save(saveData);
+        if (isLoggedIn)
+        {
+
+            ServerManager.SaveData saveData = await ServerManager.Instance.Load();
+            saveData.actionPoint = saveData.actionPoint - actionPoint;
+            Debug.Log($"Shrimp SetActionPoint{saveData.actionPoint}");
+            await ServerManager.Instance.Save(saveData);
+        }
+        else
+        {
+            Debug.Log("noLoginMode");
+        }
     }
     //獲取行動點
     public async void GetActionPointScript(string script, string actionlabel, string unactionlabel, float actionPonit)
     {
-        ServerManager.SaveData saveData = await ServerManager.Instance.Load();
-        var Player = Engine.GetService<IScriptPlayer>();
-        if (saveData.actionPoint >= actionPonit)
+        if (isLoggedIn)
         {
-            await Player.PreloadAndPlayAsync(script, label: actionlabel);
+            ServerManager.SaveData saveData = await ServerManager.Instance.Load();
+            var Player = Engine.GetService<IScriptPlayer>();
+            if (saveData.actionPoint >= actionPonit)
+            {
+                await Player.PreloadAndPlayAsync(script, label: actionlabel);
+            }
+            else
+            {
+                await Player.PreloadAndPlayAsync(script, label: unactionlabel);
+            }
         }
         else
         {
-            await Player.PreloadAndPlayAsync(script, label: unactionlabel);
+            Debug.Log("nologgin");
         }
     }
     //增加天數
     public async void SetDay(float day)
     {
-        ServerManager.SaveData saveData = await ServerManager.Instance.Load();
-        InitActionPotin();
-        saveData.day = saveData.day + day;
-        Debug.Log($"shrimp setday {saveData.day}");
-        await ServerManager.Instance.Save(saveData);
+        if (isLoggedIn)
+        {
+            ServerManager.SaveData saveData = await ServerManager.Instance.Load();
+            InitActionPotin();
+            saveData.day = saveData.day + day;
+            Debug.Log($"shrimp setday {saveData.day}");
+            await ServerManager.Instance.Save(saveData);
+        }
+        else
+        {
+            Debug.Log("noLoginMode");
+        }
     }
     //獲取天數
     public async void GetDayscript(string script, string daylabel, string undaylabel, float day)
     {
-        ServerManager.SaveData saveData = await ServerManager.Instance.Load();
-        var Player = Engine.GetService<IScriptPlayer>();
-        if (saveData.day >= day)
+        if (isLoggedIn)
         {
-            await Player.PreloadAndPlayAsync(script, label: daylabel);
+            ServerManager.SaveData saveData = await ServerManager.Instance.Load();
+            var Player = Engine.GetService<IScriptPlayer>();
+            if (saveData.day >= day)
+            {
+                Debug.Log($"GOTO{daylabel}");
+                await Player.PreloadAndPlayAsync(script, label: daylabel);
+            }
+            else
+            {
+                Debug.Log($"GOTO{undaylabel}");
+                await Player.PreloadAndPlayAsync(script, label: undaylabel);
+            }
         }
         else
         {
-            await Player.PreloadAndPlayAsync(script, label: undaylabel);
+            Debug.Log("nologgin");
         }
+
     }
     public async UniTask PlayVideoAsync(string naniScript, string ButtonLable)
     {
@@ -774,20 +829,45 @@ public class StartNani : MonoBehaviour
     //存檔
     public async UniTask SaveYaml(string scriptName)
     {
-        // SaveData saveData = await YamlLoader.LoadYaml<SaveData>(Application.persistentDataPath + "/SaveData.yaml");
-        ServerManager.SaveData saveData = await ServerManager.Instance.Load();
-        saveData.friendship = allFriendship();
-        // saveData.friendship = allFriendship();
-        foreach (var data in saveData.scriptName)
+        if (isLoggedIn)
         {
-            if (data == scriptName)
-                return;
-        }
-        saveData.scriptName.Add(scriptName);
-        await ServerManager.Instance.Save(saveData);
-        // await SelectOptionSwtich(saveData);
 
-        // YamlLoader.SaveYaml(saveData);
+            // SaveData saveData = await YamlLoader.LoadYaml<SaveData>(Application.persistentDataPath + "/SaveData.yaml");
+            // ServerManager.SaveData saveData = await ServerManager.Instance.Load();
+            var saveData = await ServerManager.Instance.Load();
+
+            if (saveData == null)
+            {
+                saveData = new ServerManager.SaveData
+                {
+                    scriptName = new List<string>()
+                };
+            }
+            if (saveData.scriptName == null)
+                saveData.scriptName = new List<string>();
+
+            saveData.friendship = allFriendship();
+            // saveData.friendship = allFriendship();
+            foreach (var data in saveData.scriptName)
+            {
+                if (data == scriptName)
+                    return;
+            }
+            if (!saveData.scriptName.Contains(scriptName))
+                saveData.scriptName.Add(scriptName);
+
+            saveData.PlatformName = "3"; // 可以用 Application.platform.ToString() 也行
+            saveData.GameIdentifier = "3"; // 也可用 Application.identifier
+
+            await ServerManager.Instance.Save(saveData);
+            await SelectOptionSwtich(saveData);
+
+            // YamlLoader.SaveYaml(saveData);
+        }
+        else
+        {
+            Debug.Log("nologgin");
+        }
     }
     // //存檔資料
     // public class SaveData

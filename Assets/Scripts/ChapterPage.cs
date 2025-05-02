@@ -84,36 +84,44 @@ public class ChapterPage : MonoBehaviour
     // 抽取独立方法更新按钮状态
     private async UniTask UpdateButtonInteractable(List<GameObject> chapter)
     {
-        try
+        StartNani startNani = StartNani.Instance;
+        if (startNani.isLoggedIn)
         {
-            // 加载保存的数据
-            // StartNani.SaveData saveData = await YamlLoader.LoadYaml<StartNani.SaveData>(Application.persistentDataPath + "/SaveData.yaml");
-            ServerManager.SaveData saveData = await ServerManager.Instance.Load();
-            foreach (GameObject obj in chapter)
+            try
             {
-                if (obj.TryGetComponent<Button>(out Button chapterButton))
+                // 加载保存的数据
+                // StartNani.SaveData saveData = await YamlLoader.LoadYaml<StartNani.SaveData>(Application.persistentDataPath + "/SaveData.yaml");
+                ServerManager.SaveData saveData = await ServerManager.Instance.Load();
+                foreach (GameObject obj in chapter)
                 {
-                    bool isInteractable = saveData.scriptName.Contains(obj.name);
-                    chapterButton.interactable = isInteractable;
+                    if (obj.TryGetComponent<Button>(out Button chapterButton))
+                    {
+                        bool isInteractable = saveData.scriptName.Contains(obj.name);
+                        chapterButton.interactable = isInteractable;
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"GameObject {obj.name} does not have a Button component.");
+                    }
                 }
-                else
+            }
+            catch (Exception ex)
+            {
+                Debug.LogError($"Failed to load YAML: {ex.Message}\n{ex.StackTrace}");
+
+                // 如果加载失败，禁用所有按钮
+                foreach (GameObject obj in chapter)
                 {
-                    Debug.LogWarning($"GameObject {obj.name} does not have a Button component.");
+                    if (obj.TryGetComponent<Button>(out Button chapterButton))
+                    {
+                        chapterButton.interactable = false;
+                    }
                 }
             }
         }
-        catch (Exception ex)
+        else
         {
-            Debug.LogError($"Failed to load YAML: {ex.Message}\n{ex.StackTrace}");
-
-            // 如果加载失败，禁用所有按钮
-            foreach (GameObject obj in chapter)
-            {
-                if (obj.TryGetComponent<Button>(out Button chapterButton))
-                {
-                    chapterButton.interactable = false;
-                }
-            }
+            Debug.Log("nologgin");
         }
     }
 }

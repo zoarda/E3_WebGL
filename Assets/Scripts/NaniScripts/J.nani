@@ -1,7 +1,7 @@
 # J-2
 @streamingPlay "J-2"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie
@@ -10,19 +10,20 @@
 # J-2-Q
 @streamingPlay "J-2-Q"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:true
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @speedButtonDisable
 @choiceDLC "PackId307" button:AvButton goto:.J-2-1
 @choiceDLC "PackId303" button:AvButton goto:.J-2-2
 @reBuildChoice
+@EndMovie
 @stop
 
 # J-2-1
 @streamingPlay "J-2-1"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie
@@ -31,7 +32,7 @@
 # J-2-2
 @streamingPlay "J-2-2"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie
@@ -40,7 +41,7 @@
 # J-E
 @streamingPlay "J-E"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie
@@ -49,11 +50,12 @@
 # J-E-Q
 @streamingPlay "J-E-Q"
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:true
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @speedButtonDisable
-@choiceDLC "PackId307" button:AvButton goto:A.ActionPonitSetting
-@choiceDLC "PackId303" button:AvButton goto:A.ActionPonitSetting
+@choiceDLC "PackId307" button:AvButton goto:.J-2-1
+@choiceDLC "PackId303" button:AvButton goto:.J-2-2
 @reBuildChoice
+@EndMovie
 @stop

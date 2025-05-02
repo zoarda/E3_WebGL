@@ -1,19 +1,20 @@
 # R-0
-@streamingPlay "R-0"
+@streamingPlay R-0
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:true
-@forcedChoice choiceTime:3
-@waitMovie choiceTime:3
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:true
+@forcedChoice choiceTime:4
+@waitMovie choiceTime:4
 @speedButtonDisable
-@choiceDLC "PackId304" button:AvButton goto:.R-0-1
-@choiceDLC "PackId305" button:AvButton goto:.R-0-2
-@choiceDLC "PackId306" button:AvButton goto:.R-0-3
-@choiceDLC "PackId303" button:AvButton goto:.R-0-4
+@choiceDLC PackId304 button:AvButton goto:.R-0-1
+@choiceDLC PackId305 button:AvButton goto:.R-0-2
+@choiceDLC PackId306 button:AvButton goto:.R-0-3
+@choiceDLC PackId303 button:AvButton goto:.R-0-4
 @reBuildChoice
+@EndMovie
 @stop
 
 # R-0-1
-@streamingPlay "R-0-1"
+@streamingPlay R-0-1
 @speedButtonEnable
 @videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
 @forcedChoice choiceTime:3
@@ -22,27 +23,27 @@
 @goto A.ActionPonitSetting
 
 # R-0-2
-@streamingPlay "R-0-2"
+@streamingPlay R-0-2
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie
 @goto A.ActionPonitSetting
 
 # R-0-3
-@streamingPlay "R-0-3"
+@streamingPlay R-0-3
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie
 @goto A.ActionPonitSetting
 
 # R-0-4
-@streamingPlay "R-0-4"
+@streamingPlay R-0-4
 @speedButtonEnable
-@videoControll StartLoopTime:0 EndLoopTime:10 isLooping:false
+@videoControll StartLoopTime:0 EndLoopTime:15 isLooping:false
 @forcedChoice choiceTime:3
 @waitMovie choiceTime:3
 @EndMovie

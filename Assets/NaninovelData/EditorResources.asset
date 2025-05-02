@@ -158,24 +158,24 @@ MonoBehaviour:
     - name: StreamingVideoTest
       pathPrefix: Scripts
       guid: e5ca81b9d9878464688f6abcc104eb46
+    - name: Y
+      pathPrefix: Scripts
+      guid: 6216e2ec56e47c0438fe14715c6fce43
+    - name: R
+      pathPrefix: Scripts
+      guid: ea64260e2a4f568438c8f20505a9d135
+    - name: J
+      pathPrefix: Scripts
+      guid: 8b2553a8be882294fbf1082095a379ec
+    - name: G
+      pathPrefix: Scripts
+      guid: 4ee2541c340f02d4fb1e4653cfff0ca6
+    - name: C
+      pathPrefix: Scripts
+      guid: 264b70cf25f1c634cbcfcabf9a27146d
     - name: A
       pathPrefix: Scripts
       guid: 2bef9ce8f2079a648a545621812cad5b
-    - name: A 1
-      pathPrefix: Scripts
-      guid: 264b70cf25f1c634cbcfcabf9a27146d
-    - name: A 2
-      pathPrefix: Scripts
-      guid: 4ee2541c340f02d4fb1e4653cfff0ca6
-    - name: A 3
-      pathPrefix: Scripts
-      guid: 8b2553a8be882294fbf1082095a379ec
-    - name: A 4
-      pathPrefix: Scripts
-      guid: ea64260e2a4f568438c8f20505a9d135
-    - name: R 1
-      pathPrefix: Scripts
-      guid: 6216e2ec56e47c0438fe14715c6fce43
   - Id: ChoiceHandlers/ab3f4250-7f1e-4325-a01a-a9546712ce0a
     Resources:
     - name: AvBoxButtonList
